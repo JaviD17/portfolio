@@ -1,0 +1,58 @@
+:root{
+    --primary-color: rgb(50, 50, 50);
+    --secondary-color: rgb(255, 145, 0);
+    --accent-color: rgb(0, 0, 0);
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+}
+header h1{
+    display: flex;
+    font-size: 40px;
+}
+header h1 a{
+    color: var(--accent-color);
+    text-decoration: none;
+}
+header nav{
+    position: absolute;
+    width: 1000px;
+    justify-content: right;
+}
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header nav ul li{
+    justify-content: space-evenly;
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: var(--accent-color);
+}
+#hero{
+    display: flex;
+}
+.menu{
+    display: flex;
+}
+.info{
+    display: flex;
+}
