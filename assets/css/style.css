@@ -47,6 +47,11 @@ header nav ul li a{
     font-size: 20px;
     font-weight: lighter;
 }
+header a:hover{
+    opacity: 0.5;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+}
 /* HEADER/NAV STYLING END */
 
 /* HERO STYLING START */
