@@ -137,6 +137,10 @@ header nav ul li a{
     display: flex;
     background-size: 100%;
 }
+.work-flex1:hover, .work-flex2:hover, 
+.work-flex3:hover, .work-flex4:hover{
+    opacity: 0.5;
+}
 /* INFO MENU/INFO SECTION STYLING END */
 
 
